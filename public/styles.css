@@ -1,9 +1,11 @@
+/* Gradient background animation for the entire element of all pages with class 'gradient-background' */
 .gradient-background {
   background: linear-gradient(300deg, #00ffa2, #e1ebc2, hsl(178, 80%, 69%));
   background-size: 180% 180%;
   animation: gradient-animation 18s ease infinite;
 }
 
+/* Keyframes for the gradient background animation */
 @keyframes gradient-animation {
   0% {
     background-position: 0% 50%;
@@ -16,20 +18,23 @@
   }
 }
 
+/* About Page*/
+/*Styling for h2 headers*/
 h2 {
-  font-size: 2.5rem; /* Adjust the size as needed */
-  font-weight: bold; /* Optional: Make the text bold */
+  font-size: 2.5rem; 
+  font-weight: bold; 
 }
-
+/* Styling for paragraphs with the class 'lead' */
 p.lead {
-  font-size: 1.25rem; /* Adjust the size as needed */
-  line-height: 1.6;   /* Optional: Improve readability */
-  margin-top: 1rem;   /* Optional: Add space above the paragraph */
+  font-size: 1.25rem; 
+  line-height: 1.6;   
+  margin-top: 1rem;   
 }
 
-
+/* Demo Page */
+/* Styling for the element with ID 'output' */
 #output {
   text-align: left;
-  width: 40%; /* Adjust the width as needed */
+  width: 40%; 
   margin: 0 auto;
 }
