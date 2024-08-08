@@ -6,7 +6,7 @@ const app = express(); // Creating an Express application
 const port = 3000; // Defining the port number for the server
 
 app.use(express.static('public')); // Serve static files from the 'public' directory
-// app.use('/sports', express.static(path.join(__dirname, 'public')));
+
 app.get('/api/sports', (req, res) => { // Define a route to handle GET requests to '/api/sports'
   res.json(data); // Send the JSON data as a response
 });
